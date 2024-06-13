@@ -48,3 +48,17 @@ jupyter lab ./bike_counters_starting_kit.ipynb
 Upload your script file `.py` to Kaggle using the Kaggle interface directly.
 The platform will then execute your code to generate your submission csv file, and compute your score.
 Note that your submission .csv file must have the columns "Id" and "bike_log_count", and be of the same length as `final_test.parquet`.
+
+
+### Project Problem Statement
+
+The City of Paris provides data on the usage of its bikes via its Open Data portal on two datasets (one about Paris’ bikes’ counters, and another about their records) under the Open Database License.
+
+### Scope of the project:
+work on a subset of the counters: the 30 most popular bikes counters’ records
+a pair of pre-treated train and test datasets is provided
+data-augmentation using external public license-authorizing datasets is possible
+<img width="1234" alt="image" src="https://github.com/sol-dnn/cyclist_trafic_prediction/assets/144451919/5501bc7f-1bb9-4b6f-87aa-74ba05c72a86">
+
+
+### Goal: predict bike counts in the coming months
